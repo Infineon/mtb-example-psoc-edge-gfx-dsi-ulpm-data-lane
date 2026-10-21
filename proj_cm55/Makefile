@@ -72,7 +72,7 @@ SOURCES+=
 INCLUDES+=
 
 # Add additional defines to the build process (without a leading -D).
-DEFINES+=CY_RETARGET_IO_CONVERT_LF_TO_CRLF
+DEFINES+=CY_RETARGET_IO_CONVERT_LF_TO_CRLF _BAREMETAL=0
 
 # Select softfp or hardfp floating point. Default is softfp.
 VFP_SELECT+=
